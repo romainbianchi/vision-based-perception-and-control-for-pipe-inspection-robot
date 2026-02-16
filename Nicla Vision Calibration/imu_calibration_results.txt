@@ -1,0 +1,8 @@
+IMU Calibration Results
+========================
+
+Accelerometer Offset (m/s²): [-19.62891645  -0.23822171  -0.75424303]
+Accelerometer Std Dev: [0.0088457  0.00532678 0.00986936]
+
+Gyroscope Offset (dps): [ 0.42391914  0.10809209 -0.15127149]
+Gyroscope Std Dev: [0.1939367  0.02860896 0.03082277]
