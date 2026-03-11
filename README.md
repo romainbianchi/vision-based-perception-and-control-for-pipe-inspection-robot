@@ -2,7 +2,7 @@
 
 This repository contains the code developed for a vision-based perception and control system for a pipe inspection robot.
 
-The project demonstrates how a robot equipped with a **monocular camera, IMU, and time-of-flight sensor** can navigate inside pipe networks, estimate its position, and detect obstructions using computer vision.
+The project demonstrates how a robot equipped with a **monocular camera, and time-of-flight sensor** can navigate inside pipe networks, estimate its position, and detect obstructions using computer vision.
 
 ## Overview
 
