@@ -33,7 +33,7 @@ These detections allow the system to:
 
 ### Obstruction Detection
 
-A monocular depth estimation model is used to detect objects blocking the pipe.  
+A monocular depth estimation model (Depth-Anything-V2: https://github.com/DepthAnything/Depth-Anything-V2) is used to detect objects blocking the pipe.  
 Depth gradients are used to identify object contours and generate bounding boxes around potential obstructions.
 
 ## System Architecture
