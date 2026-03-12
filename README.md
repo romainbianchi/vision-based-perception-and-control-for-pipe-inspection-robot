@@ -4,6 +4,8 @@ This repository contains the code developed for a vision-based perception and co
 
 The project demonstrates how a robot equipped with a **monocular camera, and time-of-flight sensor** can navigate inside pipe networks, estimate its position, and detect obstructions using computer vision.
 
+<img src="images/Robot.png" alt="Robot" width="400"/>
+
 ## Overview
 
 The system runs on a robot equipped with:
@@ -42,7 +44,9 @@ The system consists of:
 - **Embedded hardware** on the robot (camera, IMU, ToF sensor)
 - **ESP32 motor controller**
 - **Python server** running perception and control algorithms
-- **WiFi communication** between all components
+
+
+<img src="images/SoftwareArchitecture2.png" alt="SoftwareArchitecture" width="800"/>
 
 ## Example Capabilities
 
