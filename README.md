@@ -46,7 +46,7 @@ The system consists of:
 - **Python server** running perception and control algorithms
 
 
-<img src="images/SoftwareArchitecture2.png" alt="SoftwareArchitecture" width="800"/>
+<img src="images/SoftwareArchitecture.png" alt="SoftwareArchitecture" width="800"/>
 
 ## Example Capabilities
 
