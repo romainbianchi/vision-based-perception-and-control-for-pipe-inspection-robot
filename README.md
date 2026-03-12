@@ -62,4 +62,4 @@ The system enables a robot to:
 
 ## Project Context
 
-This project was developed as part of a **Master Thesis in Robotics at EPFL** on vision-based perception and control for pipe inspection robots.
+This project was developed as part of a **Master's thesis in Robotics at EPFL** within the **Computational Robot Design & Fabrication Lab**.
