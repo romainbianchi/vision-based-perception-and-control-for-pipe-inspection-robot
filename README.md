@@ -7,16 +7,17 @@ The project demonstrates how a robot equipped with a **monocular camera, and tim
 <img src="images/Robot.png" alt="Robot" height="300"/> <img src="images/Detection.png" alt="Detection" height="300"/>
 <img src="images/Classification.png" alt="Robot" width="760"/>
 
+## System Architecture
 
-## Overview
+The system consists of:
 
-The system runs on a robot equipped with:
+- **Nicla Vision** mounted on the robot (camera, ToF sensor), which captures images and distance measurements.
 
-- Camera
-- Time-of-flight distance sensor
-- Differential drive tracks
+- A **Python server running on a laptop** that receives the sensor data and runs the main perception and navigation algorithms.
 
-A laptop runs the main perception and control algorithms while communicating with the robot through WiFi.
+- An **ESP32 motor controller** that receives motion commands from the laptop and controls the robot motors.
+
+<img src="images/SoftwareArchitecture.png" alt="SoftwareArchitecture" width="760"/>
 
 ## Main Features
 
@@ -38,27 +39,6 @@ These detections allow the system to:
 
 A monocular depth estimation model (Depth-Anything-V2: https://github.com/DepthAnything/Depth-Anything-V2) is used to detect objects blocking the pipe.  
 Depth gradients are used to identify object contours and generate bounding boxes around potential obstructions.
-
-## System Architecture
-
-The system consists of:
-
-- **Nicla Vision** on the robot (camera, IMU, ToF sensor)
-- **ESP32 motor controller**
-- **Python server** running perception and control algorithms
-
-
-<img src="images/SoftwareArchitecture.png" alt="SoftwareArchitecture" width="800"/>
-
-## Example Capabilities
-
-The system enables a robot to:
-
-- Navigate pipe turns autonomously
-- Detect pipe junctions
-- Estimate its position in the network
-- Build a simple map of the pipe layout
-- Detect objects blocking the pipe
 
 ## Project Context
 
