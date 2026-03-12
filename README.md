@@ -12,7 +12,7 @@ The project demonstrates how a robot equipped with a **monocular camera, and tim
 
 The system runs on a robot equipped with:
 
-- Camera (Nicla Vision)
+- Camera
 - Time-of-flight distance sensor
 - Differential drive tracks
 
@@ -23,7 +23,7 @@ A laptop runs the main perception and control algorithms while communicating wit
 ### Pipe Turn Detection and Navigation
 
 A deep learning classifier predicts the direction of upcoming pipe turns (left/right, 45° or 90°).  
-Using this prediction together with distance measurements, the robot performs **differential control** to successfully navigate tight turns.
+Using this prediction together with distance measurements, the robot performs differential control to successfully navigate tight turns.
 
 ### Junction Detection and Mapping
 
@@ -32,7 +32,7 @@ These detections allow the system to:
 
 - Estimate the distance to junctions
 - Update the robot position
-- Incrementally build a **topological map of the pipe network**
+- Incrementally build a topological map of the pipe network
 
 ### Obstruction Detection
 
@@ -43,7 +43,7 @@ Depth gradients are used to identify object contours and generate bounding boxes
 
 The system consists of:
 
-- **Embedded hardware** on the robot (camera, IMU, ToF sensor)
+- **Nicla Vision** on the robot (camera, IMU, ToF sensor)
 - **ESP32 motor controller**
 - **Python server** running perception and control algorithms
 
