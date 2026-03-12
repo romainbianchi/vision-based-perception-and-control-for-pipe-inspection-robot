@@ -4,8 +4,8 @@ This repository contains the code developed for a vision-based perception and co
 
 The project demonstrates how a robot equipped with a **monocular camera, and time-of-flight sensor** can navigate inside pipe networks, estimate its position, and detect obstructions using computer vision.
 
-<img src="images/Robot.png" alt="Robot" height="350"/> <img src="images/Detection.png" alt="Detection" height="350"/>
-<img src="images/Classification.png" alt="Robot" width="890"/>
+<img src="images/Robot.png" alt="Robot" height="300"/> <img src="images/Detection.png" alt="Detection" height="300"/>
+<img src="images/Classification.png" alt="Robot" width="760"/>
 
 
 ## Overview
