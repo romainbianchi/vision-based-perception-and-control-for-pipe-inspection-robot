@@ -9,7 +9,6 @@ The project demonstrates how a robot equipped with a **monocular camera, and tim
 The system runs on a robot equipped with:
 
 - Camera (Nicla Vision)
-- IMU
 - Time-of-flight distance sensor
 - Differential drive tracks
 
